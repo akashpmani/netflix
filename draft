@@ -1,0 +1,6 @@
+
+                .footer.col{
+                    flex-basis: 25% ;
+                    flex-grow: 1;
+                    margin-bottom: 20px ;
+                }

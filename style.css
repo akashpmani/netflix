@@ -1,0 +1,580 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #ffff;
+
+}
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./new\ main.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     padding: 10px 0;
+}
+.logo
+{
+    width: 150px;
+    cursor: pointer;
+} nav button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.lang{
+    width: 100px;
+    height: 35px;
+    padding-bottom: 11px;
+        display: inline-flex;
+        align-items: flex-end;
+    background: transparent;
+    border: 1px solid;
+    border-color: #ffff;
+    
+    
+ 
+ 
+}
+.lanimg
+{
+    width: 15px;
+    height: 15px;
+    margin-left: -10px;
+    margin-right: 10px;
+  
+    
+}
+.lanimg1
+{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+   
+    
+    
+    
+
+}
+.signin
+{
+   
+    width: 100px;
+    height: 35px;
+}
+.con{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.cm
+{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 700px;
+}
+.cs{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.css{
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.signup{
+    width: 700px;
+    background: #ffff;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+        
+}
+.signup input{
+flex: 1;
+border: 0;
+outline: 0;
+
+}
+.signup button{
+    
+    letter-spacing: 2px;
+    border: 2 solid;
+outline: 0;
+background-color: #ff0000;
+color: #ffff;cursor: pointer;
+padding: 15px 20px;
+font-size: 20px;
+border-color: #fa0000;
+
+
+    
+}
+.inputph{
+    padding: 10px;
+}
+.anim1{
+    width: 100%;
+    height: 500px;
+    background-color:black;
+    
+    border-bottom: 8px solid #222;
+
+}
+.anim1left
+{
+    width:50%;
+    height: 500px;
+    background-color: #030000;
+    float: left;
+    border-bottom: 8px solid #222;
+
+}
+.anim1tb{
+    background-color:#000;
+   width : 100%;
+   height: 150px;
+    text-align: center;
+    margin-top: 150px;
+}
+#adt{
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+#adts{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 25px;
+   
+
+}
+.anim1right{
+    width:50%;
+    height: 500px;
+    background-color: #a11a1a;
+    float: left;
+    border-bottom: 8px solid #222;
+
+
+}
+
+
+.tv_container {
+    width: 50%; 
+    height: 500px; 
+    position: relative;
+    float: left;
+}
+.tv_container:after {
+    content: '';
+    display: block;
+  background: url(./tv.png) no-repeat top left transparent;
+    width: 100%;
+    height: 90%;
+    left: 0px;  
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+.tv_container video {
+    
+    position: absolute;
+    top: 67px; 
+    left: 85px; 
+    z-index: 5;
+}
+  
+.tv_container2 {
+    width: 50%; 
+    height: 500px;
+    background-color: #000; 
+    position: relative;
+    float: left;
+    border-bottom: 8px solid #222;
+    z-index: 0;
+
+}
+.tv_container2:after {
+    content: '';
+    display: block;
+  background: url(./mobile-0819.jpg) no-repeat top left transparent;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: -1
+    
+
+}
+.tv_container2 video {
+    
+    position: absolute;
+    top: 67px; 
+    left: 85px; 
+    
+}
+.download{
+    display: flex;
+    width:60%;
+    height: 100px;
+    margin-top: 300px;
+    margin-left: 120px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: rgb(116, 114, 114);
+    background-color:#020000;
+   
+}
+.stlogo
+{
+    flex: 1;
+    padding-left: 10px;
+    padding-top: 13px;
+    border-radius: 10px;
+    background-color: rgb(3, 3, 3);
+
+}
+.dold{
+    flex: 3
+
+
+}
+.lod{
+    flex: 1;
+    padding-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    background-color: rgb(0, 0, 0)
+}
+.test{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(160, 67, 67);
+    
+    
+    border-bottom: 8px solid #222
+}
+.anim3{
+    width: 100%;
+    height: 508px;
+    background-color:rgb(233, 228, 228);
+    
+    
+    
+    border-bottom: 8px solid #222
+}
+.a3left{
+    
+width: 50%;
+    
+    height: 500px;
+    background-color: #000000;
+
+    padding-left: 40px;
+    float: left;
+
+    
+}
+
+.a3text{
+    margin-top: 150px;
+    padding-left: 20px; 
+    font-weight: 700;
+    font-size: 60px;
+
+
+}
+.a3stext{
+    margin-top: 40px;
+    padding-left: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+
+
+}
+.a3right {
+    width: 50%; 
+    height: 500px;
+    background-color: #000; 
+    position: relative;
+    float: left;
+    
+    z-index: 0;
+
+}
+.a3right:after {
+    content: '';
+    display: block;
+  background: url(./device-pile-in.png) no-repeat top left transparent;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: 2
+    
+
+}
+.a3right video {
+    
+    position: absolute;
+ 
+    left: 110px; 
+    z-index: -1;
+    
+    
+    
+}
+.anim4{
+    width: 100%;
+    height: 508px;
+    background-color:rgb(0, 0, 0);
+    
+    
+    
+    border-bottom: 8px solid #222
+}
+.a4right{
+    
+width: 50%;
+    
+    height: 500px;
+    background-color: #000000;
+
+    padding-left: 40px;
+    float: left;
+
+    
+}
+
+.a4text{
+    margin-top: 100px;
+    padding-left: 20px; 
+    font-weight: 700;
+    font-size: 60px;
+    
+
+
+}
+.a4left{
+    width: 50%;
+    
+    height: 500px;
+    background-color: #000000;
+    background: url(./feature-4.png);
+
+    padding-left: 40px;
+    float: left;
+
+
+}
+.a4text{
+    margin-top: 150px;
+    padding-left: 20px; 
+    font-weight: 700;
+    font-size: 60px;
+
+
+}
+.a4stext{
+    margin-top: 40px;
+    padding-left: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    
+
+
+}
+.faq{
+    padding: 50px 12%;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 8px solid #222
+}
+.faq h2{
+    font-size: 40px;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: fit-content;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500p;
+    background: #222;
+    cursor: pointer;
+    position: relative;
+
+}
+label::after{
+    content:'+';
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 1s;
+    
+}
+.inputbox{
+    display: none ;
+    border-bottom: 5px;
+    
+}
+.accordion .content{
+    background: #222;
+    text-align: left;
+    max-height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+
+}
+.inputbox:checked + label +.content {
+    max-height: 600px;
+    padding: 10px 20px;
+    margin-top: 1px;
+}
+.inputbox:checked + label::after{
+    transform: rotate(765deg);
+}
+.signup2{
+    background: #ffff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 700px;
+    margin-left: 160px;
+    margin-top: 25px;
+    
+}
+.signup2 input{
+flex: 1;
+border: 0;
+outline: 0;
+
+
+}
+.signup2 button{
+    
+    letter-spacing: 2px;
+    border: 0;
+outline: 0;
+background-color: #ff0000;
+color: #ffff;cursor: pointer;
+padding: 15px 10px;
+font-size: 20px;
+
+    
+}
+.signtst{
+    margin-left: 20px;
+    
+}
+footer{
+    color: rgb(175, 166, 166);
+    width: 100%;
+    height: 378px;
+    
+    
+    
+    
+}
+.rows{
+    background-color: #000000;
+    width: 75%;
+    height: 200px;
+    margin-left: 12.5%;
+    margin-top: 20px;
+    display: flex;
+}
+.col1{
+    flex: 1;
+    
+   
+   flex-grow: 1;
+    
+}
+.col2{
+    flex:1
+    
+}
+.col3{
+    flex: 1;
+}
+.col4{
+    flex: 1;
+}
+.footer.ul{
+    display: block;
+    margin: 100px;
+    
+    
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.col a{
+    display:inline-block;
+   padding-top: 20px;
+   text-decoration: none;
+   color: rgb(75, 72, 72);
+   font-size: 15px;
+    
+}
+.lang1{
+    
+    width: 150px;
+    height: 45px;
+    margin-left: 160px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+        display: inline-flex;
+        align-items: flex-end;
+    background: transparent;
+    border: 1px solid;
+    border-color: rgb(75, 72, 72);
+    
+}
